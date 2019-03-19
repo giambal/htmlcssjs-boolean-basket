@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  background-color: #cecece;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-end;
+}
+
+.list-container,
+.statistics{
+  height: 90%;
+  width: 49%;
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+#nums{
+  width:400px;
+  height: 30px;
+}
+
+#btn{
+  height: 30px;
+  width: 50px;
+}
